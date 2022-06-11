@@ -1,0 +1,66 @@
+@mixin image {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    padding: 2%;
+}
+
+@mixin imageaboutme {
+    margin: auto;
+    display: flex;
+    width: 45%;
+    height: 45%;
+    padding: 2%;
+}
+
+@mixin parrafo {
+    justify-content:center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: justify;
+    padding-bottom: 2%;
+    font-weight: 300;
+}
+
+@mixin h2 {
+    font-weight: 600;
+}
+
+@mixin h3 {
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+@mixin box {
+    height: 8rem;
+}
+
+.imgcenter {
+    @include image;
+}
+
+.imgperson {
+    @include imageaboutme;
+}
+
+p {
+    @include parrafo;
+}
+.box h2 {
+    @include h2;
+}
+.info h3 {
+    @include h3;
+}
+
+section h3{
+    @include h3;
+}
+
+.box {
+    @include box;
+}

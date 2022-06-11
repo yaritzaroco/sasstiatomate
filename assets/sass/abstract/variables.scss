@@ -1,0 +1,52 @@
+$bg1: #fff;
+$color1: #FAFAFA;
+$color2: #E97F72;
+$color3: #f0a9a1;
+$font1: #91918D;
+$font4: #686963;
+$font3: #A0A0A0;
+$font2: #BABAB8;
+$bg2: #E56353;
+$height1: 7rem;
+
+.info {
+    background-color: $font1;
+}
+
+.info h3 {
+    color: $bg1
+}
+
+.info p {
+    color: $bg1;
+}
+
+.box {
+    background-color: $bg2;
+    color: $color1;
+}
+
+header {
+    color: $color1;
+}
+
+.box {
+    height: $height1;
+}
+
+section p {
+    color: $font4;
+}
+
+section h3 {
+    color: $font4;
+}
+
+.boton {
+    color: $font4;
+}
+
+footer {
+    background-color: $font1;
+    height: $height1;
+}
